@@ -36,7 +36,8 @@
                             <input class="form-check-input" name="publie" id="publie" type="checkbox" value="1"> Publier
                         </label>
                     </div>
-                </div>
+                </div>  
+                
                 <button type="submit" class="btn btn-primary" name="submit" value="<?= $action ?>"><?= ucfirst($action) ?>Ajouter l'article</button>
             </form>
         </div>
